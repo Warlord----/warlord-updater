@@ -1,0 +1,16 @@
+<div id="war_upd">
+<h1>Install</h1>
+<p><?php echo $message ?></p>
+bbbb
+<?php
+$url = $this->url('updater-install', array(
+    'action' => 'install',
+));
+?>
+<form action="<?php echo $url; ?>" method="post">
+<div>
+    <input type="submit" name="del" value="Yes" />
+    <input type="submit" name="del" value="No" />
+</div>
+</form>
+</div>
